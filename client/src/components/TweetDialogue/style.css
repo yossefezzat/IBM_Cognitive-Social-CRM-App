@@ -1,0 +1,104 @@
+.dialogueContainer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 95%;
+    max-width: 800px;
+    height: auto;
+    min-height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.dialogueHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+}
+.headerText{
+    margin-bottom: 0;
+}
+.closeBtn{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background: transparent;
+}
+.closeBtn:focus,
+.closeBtn:active,
+.closeBtn:hover{    
+    outline: none;
+}
+.closeBtn svg{
+    fill: #999;
+    width: 25px;
+    height: 25px;
+    transition: fill 0.2s ease;
+}
+
+.closeBtn:active svg,
+.closeBtn:hover svg{
+    fill: #000;
+}
+
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.generalDetails,
+.analyticalDetails{
+    width: 50%;
+    height: 100%;
+    padding: 1em;
+    text-align: left;
+}
+.detailsList,
+.nestedList{
+    padding: 0;
+    margin:  0;
+}
+.listItem,
+.nestedlistItem{
+    list-style-type: none;
+}
+.detailsLabel,
+.nestedDetailsLabel{
+    margin-bottom: 10px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.nestedDetailsLabel{
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5em 0;
+    color: #555;
+    font-weight: normal;
+}
+.numericValue{
+    background-color: #4eadad;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 1em;
+}
+.emoji{
+    margin-left:  1em;
+}
+.detailsValue{
+    color: #555;
+}

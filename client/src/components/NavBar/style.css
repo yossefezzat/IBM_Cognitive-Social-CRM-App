@@ -1,0 +1,26 @@
+.navbar{
+    height: 70px;
+    padding: 0 !important;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.btn{
+    /*Shoft 3mal a-override ezai? 3shan kda mb7bsh bootstrap*/
+    font-weight: bold !important;
+    height: 70px;
+    border: 0 !important;
+    border-bottom: 3px solid transparent !important;
+    border-radius: 0 !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    min-width: 160px;/* Should use media query to handle smaller screen sizes */
+    box-shadow: none !important;
+    /* margin-right: 30px; */
+    background: #317cc6 !important;
+}
+.current{
+    border-bottom-color: #317cc6 !important;
+    background: #f8f9fa !important;
+    /* color: #096ad1 !important; */
+    color: #317cc6 !important;
+}

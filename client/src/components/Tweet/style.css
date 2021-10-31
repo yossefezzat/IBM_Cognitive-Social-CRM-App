@@ -1,0 +1,96 @@
+.tweetContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    width: 95%;
+    margin: 15px auto;
+    max-width: 800px;
+    padding: 1em;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background: #fff;
+}
+
+.userContainer,
+.tweetContent,
+.info{
+    width: 100%;
+}
+.userContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.userNameInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em;
+}
+.userNameInfo * {
+    padding: 0;
+    margin: 5px 0;
+    font-size: 1em;
+}
+.userDisplayName{
+    font-weight: bold;
+}
+.userHandle{
+    color: #777;
+}
+.userImage{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background-position: 50%;
+    background-size: cover;
+}
+.expandBtn{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.expandBtn:focus,
+.expandBtn:active,
+.expandBtn:hover{
+    outline: none;
+}
+.expandBtn svg{
+    fill: #999;
+    width: 25px;
+    height: 25px;
+    transition: fill 0.2s ease;
+}
+.expandBtn:active svg,
+.expandBtn:hover svg{
+    fill: #000;
+}
+.emoji{
+    width: 30px;
+    height: 30px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timestamp{
+    margin: 0 10px;
+    color: #777;
+    font-size: 0.7em;
+}
+.tweetContent{
+    padding: 1em;
+    text-align: left;
+}

@@ -1,0 +1,32 @@
+.tweetsList{
+    padding: 2em 0;
+}
+.slider{
+    background:light;
+    padding: 1em;
+}
+.controlBtn{
+    position: absolute;
+    top: calc(50% - 30px);
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    transition: all 0.2s ease;
+    background: rgba(0,0,0,0.2);
+}
+.controlBtn:hover{
+    background: rgba(0,0,0,0.5);
+}
+.backBtn{
+    left: 0;
+}
+.nextBtn{
+    right: 0;
+    transform: rotateY(180deg);
+}
+.controlBtn:focus,
+.controlBtn:active{
+    outline: unset;
+}
