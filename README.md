@@ -5,9 +5,9 @@
 
 ![Flow](flow.png)
 
-####1.	Tweets are pushed out by Twitter.
-####2.	The application processes the tweet.
-####3.	The Watson Tone Analyzer Service performs analysis of sentiment and emotional tone.
-####4.	The Watson Natural Language Understanding Service pulls out keywords and entities.
-####5.	Tweets and metadata are stored in Cloudant 
-####6.	The Web UI displays charts and graphs as well as the tweets.
+#### 1.	Tweets are pushed out by Twitter.
+#### 2.	The application processes the tweet.
+#### 3.	The Watson Tone Analyzer Service performs analysis of sentiment and emotional tone.
+#### 4.	The Watson Natural Language Understanding Service pulls out keywords and entities.
+#### 5.	Tweets and metadata are stored in Cloudant 
+#### 6.	The Web UI displays charts and graphs as well as the tweets.
